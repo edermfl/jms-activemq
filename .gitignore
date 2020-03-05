@@ -1,0 +1,75 @@
+*.pydevproject
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+**/tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+sfw-version.properties*
+sfw-plsql-version.properties*
+.classpath
+.settings/
+.loadpath
+.~*.xlsx
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# CDT-specific
+.cproject
+
+# PDT-specific
+.buildpath
+
+#SFW
+.classpath
+/dist
+/bin
+/lib
+exclusivo
+tmp
+tmp/*
+tmp/*.sql
+custom.properties
+.gradle
+/resources/parsed/*
+/resources/META-INF/*
+/install/componente/*
+javadoc
+target
+bcp
+@REPORT_RESULT_TEST@
+@REPORT_AUTOMATIC_SCREENSHOT_PATH@
+gradle-app.setting
+web.xml
+~$*.xlsm
+~$*.xlsx
+/sql.output
+gradle-gui.bat
+gradle-gui.vbs
+/gradle/*
+/classes
+rebel.xml
+/out
+sfw.iml
+sfw.ipr
+sfw.iws
+.idea/**/*
+web/tutorial
+doc/jrebel/licensing.info
+doc/jrebel/jrebel-activation.log
+
+# O parseSfw se encarrega de gerar este arquivo
+/resources/i18n/SFWMessagesResources_pt_BR.properties
+
+# Diretorio utilizado para gerar o md5 dos metadados nos builds no hudson
+# Deste modo, só irá aplicar o metadados quando o md5 gerado for diferente do atual
+metadatamd5
